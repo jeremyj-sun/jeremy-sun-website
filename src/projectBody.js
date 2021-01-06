@@ -44,7 +44,7 @@ function ProjectBody() {
                         <ProjectCard id='3' href="https://github.com/jeremyj-sun" title='Other Projects on GitHub' image={github} alt='github' external='true'>
                         <ul className='project-list'>
                             <li className='project-list-li'>
-                                <b><a className='card-link' target='_blank' rel='noreferrer' href="">This Website!</a></b>
+                                <b><a className='card-link' target='_blank' rel='noreferrer' href="https://github.com/jeremyj-sun/jeremy-sun-website">This Website!</a></b>
                             </li>
                             <li className='project-list-li'>
                                 <b><a className='card-link' target='_blank' rel='noreferrer' href="https://github.com/jeremyj-sun/Computer-E-Commerce-Site/tree/master/Computer-E-Commerce-Site">Full-stack Java, Apache, and MySQL E-commerce application</a></b>
