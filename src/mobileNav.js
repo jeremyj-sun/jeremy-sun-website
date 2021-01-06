@@ -24,6 +24,8 @@ export class MobileNav extends Component {
                         <div class="dropdown-divider"></div>
                         <p className='nav-subtitle'><img src={code} width="20px" height="20px" /> Projects</p>
                         <div class="dropdown-divider"></div>
+                        <MobileDropdownItem class='dropdown-item'link='/projects' label='All Projects' target="_self" bold='true'></MobileDropdownItem>
+                        <div class="dropdown-divider"></div>
                         <MobileDropdownItem class='dropdown-item'link='https://hey-is-it-friday-yet.web.app/friday.html' label='Is it Friday yet?' target="_blank"></MobileDropdownItem>
                         <MobileDropdownItem class='dropdown-item' link='https://panzer-chess.web.app/board.html' label='Chess with Tanks!' target="_blank"></MobileDropdownItem>
                     
