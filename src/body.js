@@ -14,7 +14,7 @@ export default function Body() {
 
                 <p>Feel free to contact me at <a className='card-link card-link2' href="mailto:j338sun@uwaterloo.ca">j338sun@uwaterloo.ca</a>.</p>
                 <p>And as always ... <b>Have fun! </b></p>
-                <DefaultButton>View All Projects</DefaultButton>
+                <DefaultButton href='/projects'>View All Projects</DefaultButton>
                 
                     
             </Content>

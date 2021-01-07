@@ -8,7 +8,7 @@ function DefaultButton(props) {
                         <button type="button"
                         onClick={(e) => {
                             e.preventDefault();
-                            window.location.href='/projects';
+                            window.location.href=props.href;
                             }} 
                             className='btn btn-primary default-button'>
                                 <span className='button-text'>{props.children}</span>
