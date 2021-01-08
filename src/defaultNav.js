@@ -15,7 +15,7 @@ function DefaultNav() {
         <NavItem link='/' logo={sunSmile} alt='smiling-sun' label='Home' target="_self"></NavItem>
         <NavItem link="https://github.com/jeremyj-sun" logo={gitHub} alt='gitHub' label='GitHub' target="_blank"></NavItem>
         <NavItem link="https://www.linkedin.com/in/jeremy-sun/" logo={linkedIn} alt='linkedIn' label='LinkedIn' target="_blank"></NavItem>
-        <NavItem link='#' logo={resume} alt='resume' label='Resume' target="_blank"></NavItem>
+        <NavItem link='/files/Jeremy_Sun_Resume.pdf' logo={resume} alt='resume' label='Resume' target="_blank"></NavItem>
         <NavDropdown label='Projects' logo={code}>
                     <div class="dropdown-divider" style={{marginTop: '0'}}></div>
                     <DropdownItem link='/projects' target='_self' bold='true' label='All Projects'></DropdownItem>

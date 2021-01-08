@@ -19,7 +19,7 @@ export class MobileNav extends Component {
                     <MobileDropdownItem class='dropdown-item' link='/' logo={sunSmile} alt='smiling-sun' label='Home' target="_self"></MobileDropdownItem>
                     <MobileDropdownItem class='dropdown-item' link="https://github.com/jeremyj-sun" logo={gitHub} alt='gitHub' label='GitHub' target="_blank"></MobileDropdownItem>
                     <MobileDropdownItem class='dropdown-item' link="https://www.linkedin.com/in/jeremy-sun/" logo={linkedIn} alt='linkedIn' label='LinkedIn' target="_blank"></MobileDropdownItem>
-                    <MobileDropdownItem class='dropdown-item' link='#' logo={resume} alt='resume' label='Resume' target="_blank"></MobileDropdownItem>
+                    <MobileDropdownItem class='dropdown-item' link='/files/Jeremy_Sun_Resume.pdf' logo={resume} alt='resume' label='Resume' target="_blank"></MobileDropdownItem>
                     
                         <div class="dropdown-divider"></div>
                         <p className='nav-subtitle'><img src={code} width="20px" height="20px" /> Projects</p>
