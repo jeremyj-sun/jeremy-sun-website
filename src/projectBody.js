@@ -5,11 +5,12 @@ import friday from './assets/is-it-friday-yet-logo.jpg'
 import chess from './assets/chess-with-tanks-logo-01.jpg'
 import github from './assets/github-large-01.svg'
 import incognito from './assets/incognito-sun-01.svg'
+import story from './assets/storyPlusPlusProject.jpg'
 
 function ProjectBody() {
     return (
         <div className='container-fluid project-body'>
-            <div className='container'>
+            <div className='container' style={{maxWidth: '1400px'}}>
                 <div className='row'>
                     <div className='col-lg-4 card-wrapper'>
                         <ProjectCard id='1' title='Is it Friday yet?' href='https://hey-is-it-friday-yet.web.app/friday.html' image={friday} alt='friday' external='true'>
@@ -41,7 +42,18 @@ function ProjectBody() {
                         </ProjectCard>
                     </div>
                     <div className='col-lg-4 card-wrapper'>
-                        <ProjectCard id='3' href="https://github.com/jeremyj-sun" title='Other Projects on GitHub' image={github} alt='github' external='true'>
+                        <ProjectCard id='3'  title='Story++' image={story} alt='story++'>
+                            <p><a className='card-link' target='_blank' href="https://devpost.com/software/story-levhaz"><b>Hack the North 2020++ Devpost</b></a></p>
+                            <p>In only 36 hours, our team successfully represented interactive stories as graphs that can be saved, loaded, and dynamically traversed on a browser. It was a great learning experience! :)</p>
+                            <p><b>More than just stories!</b></p>
+                            <p>Story++ is a platform for easily creating, sharing and reading choose-your-adventure stories.</p>
+                            
+                            
+                            <p><a className='card-link' target='_blank' href="https://github.com/jeremyj-sun/choose-your-adventure">View source code on GitHub</a></p>
+                        </ProjectCard>
+                    </div>
+                    <div className='col-lg-4 card-wrapper'>
+                        <ProjectCard id='4' href="https://github.com/jeremyj-sun" title='Other Projects on GitHub' image={github} alt='github' external='true'>
                         <ul className='project-list'>
                             <li className='project-list-li'>
                                 <b><a className='card-link' target='_blank' rel='noreferrer' href="https://github.com/jeremyj-sun/jeremy-sun-website">This Website!</a></b>
@@ -59,7 +71,7 @@ function ProjectBody() {
                         </ProjectCard>
                     </div>
                     <div className='col-lg-4 card-wrapper'>
-                        <ProjectCard id='4' title='???' image={incognito} alt='incognito'>
+                        <ProjectCard id='5' title='???' image={incognito} alt='incognito'>
                         <p><b>Greetings... I am Incognito Sun...</b></p>
                         <p>Our spy network has uncovered intelligence that a massive database of tanks is being prepared...</p>
                         <p>That's all for now...</p>

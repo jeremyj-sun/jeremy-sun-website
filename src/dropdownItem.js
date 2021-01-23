@@ -5,7 +5,7 @@ function DropdownItem(props) {
         <div>
             <a class="dropdown-item" target={props.target} rel='noreferrer' href={props.link} 
             style={{textAlign: 'center'}}>
-            <span style={{fontWeight: (props.bold && props.bold === 'true') ? 'bold' : 'normal'}}>{props.label}</span></a>
+            <span className='dropdown-label' style={{fontWeight: (props.bold && props.bold === 'true') ? 'bold' : 'normal'}}>{props.label}</span></a>
         </div>
     )
 }
