@@ -1,12 +1,11 @@
 import React from 'react';
 import logo from './assets/sun-smile.svg'
-import Background from './assets/header-background.jpg'
 
 //Home page header
 function Header() {
     return (
   
-    <div className="jumbotron jumbotron-fluid" style={{marginBottom: '0rem', backgroundImage: `url(${Background})`}}>
+    <div className="jumbotron jumbotron-fluid home-header">
         <div className="row">
             <div className="col-md-1"></div>
             <div className="col-md-2">
