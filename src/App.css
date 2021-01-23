@@ -5,6 +5,12 @@
   z-index: 1;
   overflow: hidden;
 }
+
+.home-header {
+  margin-bottom: 0rem;
+  background-image: url('./assets/header-background.jpg');
+  background-size: 100%;
+}
 .basic-header {
   text-align: center;
   padding-bottom: 1rem;
