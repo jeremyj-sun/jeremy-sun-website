@@ -62,9 +62,6 @@ function ProjectBody() {
                                 <b><a className='card-link' target='_blank' rel='noreferrer' href="https://github.com/jeremyj-sun/Computer-E-Commerce-Site/tree/master/Computer-E-Commerce-Site">Full-stack Java, Apache, and MySQL E-commerce application</a></b>
                             </li>
                             <li className='project-list-li'>
-                                <b><a className='card-link' target='_blank' rel='noreferrer' href="https://github.com/jeremyj-sun/Brick-Breaker-JS">Brick Breaker in JavaScript</a></b>
-                            </li>
-                            <li className='project-list-li'>
                                 <b><a className='card-link' target='_blank' rel='noreferrer' href="https://github.com/jeremyj-sun/Educational-Game-Math-and-English/blob/master/turingGame/Kampf%20Gruppe%20Steiner%20Education.t">Math and English Game in Turing</a></b>
                             </li>
                         </ul>
