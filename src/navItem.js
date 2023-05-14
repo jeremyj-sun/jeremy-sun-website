@@ -10,7 +10,7 @@ function NavItem(props) {
     return (
             <li class="nav-item">
             <a class="nav-link active" href={props.link} target={props.target} rel="noreferrer">
-                <img src={props.logo} width="25px" height="25px" alt={props.alt} />{props.label}
+                <img src={props.logo} width="25px" height="25px" alt={props.alt} /> {props.label}
             </a>
             </li>
     )

@@ -27,7 +27,7 @@ export class NavDropdown extends Component {
         <li class="nav-item dropdown">
             <a onMouseDown={this.click}  className="nav-link active dropdown-toggle" data-toggle="dropdown" href="" role="button" aria-haspopup="true"
                 aria-expanded="false">
-                    <img src={this.props.logo} width="25px" height="25px" alt="Projects"/><span style={{color: this.state.toggle ? '#247ca5' : '#495057'}}>{this.props.label}</span></a>
+                    <img src={this.props.logo} width="25px" height="25px" alt="Projects"/><span style={{color: this.state.toggle ? '#247ca5' : '#495057'}}> {this.props.label}</span></a>
                 <div class="dropdown-menu" >
                     {this.props.children}
                 </div>

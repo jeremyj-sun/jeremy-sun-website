@@ -1,6 +1,19 @@
 /* rgb(9, 42, 77) , 053d72, 065197 darker blues*/
 /* #247ca5 footer */
 
+/* Sound cloud */
+.soundcloud {
+  max-width: 375px;
+  max-height: 375px;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.soundcloud > iframe {
+  padding-bottom: 15px;
+}
+
+
 /* images */
 .default-image {
   border-radius: 25px;

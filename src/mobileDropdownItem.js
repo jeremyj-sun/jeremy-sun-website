@@ -7,7 +7,7 @@ function MobileDropdownItem(props) {
             style={{textAlign: 'center'}}>
                 {props.logo ? <img src={props.logo} width="20px" height="20px" alt={props.alt} /> : null}
                 
-                <span className='dropdown-label' style={{fontWeight: (props.bold && props.bold === 'true') ? 'bold' : 'normal'}}>{props.label}</span></a>
+                <span className='dropdown-label' style={{fontWeight: (props.bold && props.bold === 'true') ? 'bold' : 'normal'}}> {props.label}</span></a>
         </div>
     )
 }

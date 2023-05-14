@@ -4,7 +4,7 @@ function Content(props) {
     return (
         <div className="container-fluid content-1">
             <div className="container content-2">
-                <b><h5 className="content-header-wrapper" style={{display: props.title ? 'block' : 'none'}}>
+                <b><h5 id={props.id} className="content-header-wrapper" style={{display: props.title ? 'block' : 'none'}}>
                     <div className="content-header">
                         {props.title ? props.title : null }
                     </div>

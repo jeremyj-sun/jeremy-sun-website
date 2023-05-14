@@ -4,12 +4,14 @@ import menu from './assets/list.svg'
 import DropdownItem from './dropdownItem.js'
 import NavItem from './navItem.js'
 import MobileDropdownItem from './mobileDropdownItem.js'
+import HashLinkMobileDropdownItem from './hashLinkMobileDropdownItem.js'
 
 import sunSmile from "./assets/sun-smile.svg"
 import gitHub from './assets/github.svg'
 import linkedIn from './assets/linkedin.svg'
 import resume from './assets/resume.svg'
 import code from './assets/monitor.svg'
+import headphone from './assets/headphone.png'
 
 export class MobileNav extends Component {
     render() {
@@ -20,6 +22,7 @@ export class MobileNav extends Component {
                     <MobileDropdownItem class='dropdown-item' link="https://github.com/jeremyj-sun" logo={gitHub} alt='gitHub' label='GitHub' target="_blank"></MobileDropdownItem>
                     <MobileDropdownItem class='dropdown-item' link="https://www.linkedin.com/in/jeremy-sun/" logo={linkedIn} alt='linkedIn' label='LinkedIn' target="_blank"></MobileDropdownItem>
                     <MobileDropdownItem class='dropdown-item' link='/files/Jeremy_Sun_Resume.pdf' logo={resume} alt='resume' label='Resume' target="_blank"></MobileDropdownItem>
+                    <HashLinkMobileDropdownItem class='dropdown-item' link='/#music' logo={headphone} alt='music' label='Music'></HashLinkMobileDropdownItem>
                     
                         <div class="dropdown-divider"></div>
                         <p className='nav-subtitle'><img src={code} width="20px" height="20px" /> Projects</p>
