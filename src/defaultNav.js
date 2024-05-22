@@ -23,6 +23,7 @@ function DefaultNav() {
                     <div class="dropdown-divider" style={{marginTop: '0'}}></div>
                     <DropdownItem link='/projects' target='_self' bold='true' label='All Projects'></DropdownItem>
                     <div class="dropdown-divider"></div>
+                    <DropdownItem link='https://cs492-project-rosy.vercel.app/'  target='_blank' label='AImposter'></DropdownItem>
                     <DropdownItem link='https://hey-is-it-friday-yet.web.app/friday.html'  target='_blank' label='Is it Friday yet?'></DropdownItem>
                     <DropdownItem link='https://panzer-chess.web.app/board.html' target='_blank' label='Chess with Tanks!'></DropdownItem>
         </NavDropdown>
